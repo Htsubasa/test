@@ -1,0 +1,23 @@
+.strength-section {
+  position: -webkit-sticky;
+  position: sticky;
+}
+
+.strength-section.sticky-fixed.is-sticky {
+  margin-top: 0;
+  margin-bottom: 0;
+  position: fixed;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.strength-section.sticky-fixed.is-sticky:not([style*="margin-top"]) {
+  margin-top: 0 !important;
+}
+.strength-section.sticky-fixed.is-sticky:not([style*="margin-bottom"]) {
+  margin-bottom: 0 !important;
+}
+.strength-section.sticky-fixed.is-absolute{
+  position: absolute;
+}
