@@ -5616,6 +5616,15 @@ html body .concept-section .group_concept_text {
   }
 }
 
+html body .top {
+  height: 2100px;
+}
+
+html body .bottom {
+  height: 2100px;
+}
+
+
 html body .strength-section {
   background-color: #EDC144;
   padding-top: 100px;
